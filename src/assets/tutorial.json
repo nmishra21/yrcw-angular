@@ -1,0 +1,14 @@
+[
+    {
+		"Image":"https://admin.yrcw.com/wp-content/uploads/sites/4/2017/08/dfq-tutorial-screenshot1.png",
+        "title": "Dimensional Freight Quote",
+        "Value": "http://vimeo.com/228088100",
+        "desc":"Receive a quote and/or book a shipment based on dimensional quoting."
+    },
+    {
+		"Image":"http://admin.yrcw.com/wp-content/uploads/sites/4/2014/07/autonotification1.gif",
+        "title": "Auto Notification ",
+        "Value": "http://vimeo.com/103802185",
+        "desc":"Create a profile to receive tracking status notifications and/or documents real-time or in a bundled delivery."
+    }
+]

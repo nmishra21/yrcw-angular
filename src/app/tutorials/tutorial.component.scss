@@ -1,0 +1,50 @@
+.related-pages {
+    overflow: hidden;
+    margin: 25px -22px;
+    padding: 20px 22px;
+    color: black;
+}
+a:hover {
+    color: rgba(247,148,29,.7);
+  }
+.related-pages a {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 1em;
+    color:black;
+    font-size: 16px;
+    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+h1,.row  {
+    font-family: Quadon-Black,serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul {
+    list-style-type:none;
+}
+h2 {
+    font-size: 26px;
+    line-height: 32px;
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+}
+
+.left{
+    width:50%;
+    float:left;  
+}
+.right{
+    width:50%;
+    float:right;  
+}

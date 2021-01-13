@@ -1,0 +1,64 @@
+.zone-content {
+    overflow: hidden;
+}
+.wide-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.zone-content .entry-content {
+    padding: 50px 0 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.zone-content p.lead, .zone-content ul.lead, .zone-content ol.lead, .zone-content h1.lead, .zone-content h2.lead, .zone-content h3.lead, .zone-content h4.lead, .zone-content h5.lead, .zone-content h6.lead {
+    margin-top: 0;
+}
+.zone-content h1, .zone-content h2, .zone-content h3 {
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+.zone-content h2 {
+    font-size: 26px;
+    line-height: 32px;
+    font-size: 2.1rem;
+    line-height: 2.2rem;
+}
+.zone-content h1, .zone-content h2, .zone-content h3, .zone-content h4, .zone-content h5, .zone-content h6 {
+    text-transform: none;
+    font-family: Quadon-Black,serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.zone-content p.lead {
+    font-size: 26px;
+    line-height: 38px;
+    font-size: 1.9rem;
+    line-height: 2.8rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 300;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 800;
+}

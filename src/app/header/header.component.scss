@@ -1,0 +1,169 @@
+.wide-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #005a87;
+    color: white;
+}
+.zone-marquee-blue .container .marquee-content h1, .zone-marquee-black .container .marquee-content h1 {
+    color: #fff;
+}
+
+.zone-marquee-blue {
+    background: url(/wp-content/themes/yrc-freight/library/css/../images/backgrounds/stripe-blue-repeater.png?1401739420);
+}
+.marquee-content h1 {
+    font-family: Quadon-Black,serif!important;
+    font-weight: 400;
+    font-size: 42px!important;
+    line-height: 42px;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+}
+.zone-marquee-small {
+    padding: 30px 0 25px;
+}
+.zone-marquee-small, .zone-marquee-large {
+    position: relative;
+    -moz-box-shadow: #000 0 5px 6px -3px inset,#000 0 -5px 6px -3px inset;
+    -webkit-box-shadow: #000 0 5px 6px -3px inset, #000 0 -5px 6px -3px inset;
+    box-shadow: #000 0 5px 6px -3px inset, #000 0 -5px 6px -3px inset;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    padding: 0 22px;
+    max-width: 960px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.zone-global-cta {
+    display: none;
+}
+
+.zone-global-cta {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSI1MDAlIj48c3RvcCBvZmZzZXQ9IjIlIiBzdG9wLWNvbG9yPSIjNGI3ZGE5Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA0Nzg1Ii8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g);
+    background-size: 100%;
+    background-image: -moz-radial-gradient(45px 45px,#4b7da9 10px,#004785 500px);
+    background-image: -webkit-radial-gradient(45px 45px,#4b7da9 10px,#004785 500px);
+    background-image: radial-gradient(45px 45px,#4b7da9 10px,#004785 500px);
+}
+
+.wide-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.global-cta-tabs {
+    font-family: Quadon-Bold,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    padding: 16px 0;
+    text-align: justify;
+}
+.global-cta-tabs li {
+    position: relative;
+    top: 1.2em;
+    text-transform: uppercase;
+    font-size: 60%;
+    padding-left: 0;
+    display: inline-block;
+    vertical-align: baseline;
+    color: #fff;
+    cursor: pointer;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style: none;
+}
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+.global-cta-tabs:before {
+    content: '';
+    display: block;
+    margin-bottom: -1.2em;
+    width: 100%;
+}
+
+ul li:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 7px;
+    display: inline-block;
+    background-image: url(/wp-content/themes/yrc-freight/library/css/../images/sprites-sb9549c9498.png);
+    background-position: 0 -946px;
+    background-repeat: no-repeat;
+    height: 6px;
+    width: 10px;
+}
+.global-cta-tabs li:after {
+    display: inline-block;
+    vertical-align: baseline;
+    display: inline-block;
+    background-image: url(/wp-content/themes/yrc-freight/library/css/../images/sprites-sb9549c9498.png);
+    background-position: 0 -1125px;
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 10px;
+    content: '';
+    margin-left: 6px;
+    position: relative;
+}
+strong {
+    font-weight: bold;
+}
+.zone-marquee-small:before, .zone-marquee-large:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(radial,45px 45px,0,45px 45px,500,color-stop(2%,rgba(255,255,255,.5)),color-stop(100%,rgba(255,255,255,0)));
+    background-image: -webkit-radial-gradient(45px 45px,rgba(255,255,255,.5) 10px,rgba(255,255,255,0) 500px);
+    background-image: -moz-radial-gradient(45px 45px,rgba(255,255,255,.5) 10px,rgba(255,255,255,0) 500px);
+    background-image: -o-radial-gradient(45px 45px,rgba(255,255,255,.5) 10px,rgba(255,255,255,0) 500px);
+    background-image: radial-gradient(45px 45px,rgba(255,255,255,.5) 10px,rgba(255,255,255,0) 500px);
+}
+.container:after {
+    clear: both;
+    content: " ";
+    display: block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

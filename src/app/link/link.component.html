@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class ="related-pages">
+    <h1>Quick Links</h1>
+    <div class ="row">
+            <ul>
+                <li class="col-md-4" *ngFor="let data of jsonData">
+                    <a [href]="data.urlValue" target="_blank">
+                        {{data.title}}
+                    </a>
+                </li>
+            </ul>   
+    </div>
+</div>
+</body>
+</html>
